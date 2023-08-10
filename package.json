@@ -1,15 +1,16 @@
 {
-    "name": "npm_package",
+    "name": "customhook-module",
     "version": "1.0.0",
     "description": "",
-    "main": "useToggle.js",
+    "main": "dist/index.js",
     "scripts": {
-        "test": "npm run start"
+        "build": "npx tsc"
     },
     "author": "",
     "license": "ISC",
     "peerDependencies": {
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "typescript": "^5.1.6"
     }
 }
